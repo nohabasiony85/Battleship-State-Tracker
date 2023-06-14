@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.2" />
+      <PackageReference Include="Moq" Version="4.18.4" />
+      <PackageReference Include="xunit" Version="2.5.0-pre.22" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BattleshipStateTracker.Services\BattleshipStateTracker.Services.csproj" />
+    </ItemGroup>
+
+</Project>
